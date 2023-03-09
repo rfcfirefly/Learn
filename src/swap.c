@@ -2,8 +2,9 @@
 
 int main(void)
 {
-    int x = 20;
-    int y = 40;
+    // Final Values: x:10, y:90
+    int x = 10;
+    int y = 90;
 
     printf("x is: %i\n", x);
     printf("y is: %i\n", y);
