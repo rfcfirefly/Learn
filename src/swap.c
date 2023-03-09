@@ -17,9 +17,9 @@ int main(void)
     printf("y is: %i\n", y);
 
     // swapping
-    swap(x, y);
+    swap(&x, &y);
 
-    printf("x is now: %i\n", x);_VA_LIST
+    printf("x is now: %i\n", x);
     printf("y is now: %i\n", y);
 
     return 0;
