@@ -2,6 +2,7 @@
 
 void swap(int* a, int* b)
 {
+    printf("Swap: %i and %i\n", *a, *b);
     int tmp = *a;
     *a = *b;
     *b = tmp;
