@@ -1,0 +1,10 @@
+# Main .gitignore file
+#
+# General Assembler Out files
+*/*.o
+*/*.out
+
+# Other (executable) files
+app/*
+
+
