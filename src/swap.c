@@ -1,3 +1,5 @@
+// Basic c program: showing functions and use of pointers
+//
 #include <stdio.h>
 
 void swap(int* x, int* y)
