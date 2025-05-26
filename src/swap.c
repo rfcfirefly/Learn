@@ -13,10 +13,19 @@ int main(void)
     int x = 10;
     int y = 90;
 
+	int* xp = &x;
+	int* yp = &y;
+
     printf("x is: %i\n", x);
     printf("y is: %i\n", y);
 
     swap(&x, &y);
+
+    printf("x is now: %i\n", x);
+    printf("y is now: %i\n", y);
+
+    // swapping back - use the pointers
+    swap(xp, yp);
 
     printf("x is now: %i\n", x);
     printf("y is now: %i\n", y);
